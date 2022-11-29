@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="BCryptPasswordEncoder"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="BCryptPasswordEncoder"/>
+			<item value="&lt;dependency&gt;"/>
+			<item value="&lt;table th:replace=&quot;factura/plantilla-items :: itemsFactura&quot;&gt;&lt;/table&gt;"/>
+			<item value="getPath"/>
+			<item value="if(!usuario.getIdentificador().matches(&quot;[0-9]{2}[.,][\\\\d]{3}[.,][\\\\d]{3}[-][A-Z]{1}&quot;)) {"/>
+			<item value="typeMismatch.usuario.fechaNacimiento= el campo fecha debe ser una fecha con formato anterior"/>
+			<item value="Map&lt;String, String&gt; errores = new HashMap&lt;&gt;();"/>
+			<item value="&#x0D;&#x0A;&#x09;&lt;table th:if=&quot;${usuarios.size()&gt;0}&quot;&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;thead&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;tr&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;th&gt;Nombre&lt;/th&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;th&gt;Apellido&lt;/th&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;th&gt;Email&lt;/th&gt;&#x09;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;/tr&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/thead&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;tbody&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;tr th:each=&quot;usuario: ${usuarios}&quot;&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;td th:text=&quot;${usuario.nombre}&quot;&gt;&lt;/td&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;td th:text=&quot;${usuario.apellido}&quot;&gt;&lt;/td&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&#x09;&lt;td th:text=&quot;${usuario.email}&quot;&gt;&lt;/td&gt;&#x0D;&#x0A;&#x09;&#x09;&#x09;&lt;/tr&gt;&#x0D;&#x0A;&#x09;&#x09;&lt;/tbody&gt;&#x0D;&#x0A;&#x09;&lt;/table&gt;"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1056"/>
+		<item key="DIALOG_Y_ORIGIN" value="178"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

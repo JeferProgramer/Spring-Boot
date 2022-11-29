@@ -1,0 +1,5 @@
+package com.bolsadeideas.springboot.error.app.services;
+
+public class UsuarioServiceImpl {
+
+}
