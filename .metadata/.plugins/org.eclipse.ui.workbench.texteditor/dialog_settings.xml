@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="BCryptPasswordEncoder"/>
+		<item key="selection" value="pac"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="pac"/>
+			<item value="pack"/>
+			<item value="packe"/>
+			<item value="getCliente"/>
 			<item value="BCryptPasswordEncoder"/>
 			<item value="&lt;dependency&gt;"/>
 			<item value="&lt;table th:replace=&quot;factura/plantilla-items :: itemsFactura&quot;&gt;&lt;/table&gt;"/>
