@@ -50,11 +50,15 @@
 		</section>
 	</section>
 	<section name="SmartImportWizard">
-		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\usuario\Desktop\spring-boot-jwt-my"/>
+			<item value="C:\Users\usuario\Downloads\jwt-main\jwt-main\spring-boot-jwt"/>
+			<item value="C:\Users\usuario\Downloads\jwt-main"/>
+			<item value="C:\Users\usuario\Downloads\spring-boot-jwt"/>
 			<item value="C:\Users\usuario\Downloads\spring-boot-data-jpa[paginator]"/>
 			<item value="C:\Users\usuario\Downloads\1_spring-boot-horario\spring-boot-horario"/>
 			<item value="C:\Users\usuario\Downloads\3_spring-boot-form[validacion_base_simple] (1)"/>
