@@ -1,9 +1,0 @@
-package com.bolsadeideas.springboot.di.app.view.xlsx;
-
-import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.view.document.AbstractXlsView;
-
-@Component("factura/ver.xlsx")
-public class FacturaXlsxView extends AbstractXlsViewl{
-	
-}
