@@ -8,4 +8,4 @@ Inyeccion de dependencias, Contenedor y Contextos IoC,
 Anotaciones, Spring con arquitectura MVC, Thymeleaf, Servicios RestFul ,
 Formularios, Validaciones, Sesiones HTTP, Data JPA, Hibernate , Paginacion,
 Transaction management , Spring Security, JWT, PDF, Excel,
-I18N, Uploads de archivos , Angular 15, Bootstrap CSS
+I18N, Uploads de archivos , Angular 15, Bootstrap CSS, JavaScript 
