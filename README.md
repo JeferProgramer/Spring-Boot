@@ -6,4 +6,4 @@ Desarrollo y aprendizaje de spring boot, jpa, microservicos
 
 Inyeccion de dependencias, Contenedor y Contextos IoC,
 Anotaciones, Spring con arquitectura MVC, Thymeleaf, Servicios RestFul ,
-Formularios, Validaciones
+Formularios, Validaciones, Sesiones HTTP
