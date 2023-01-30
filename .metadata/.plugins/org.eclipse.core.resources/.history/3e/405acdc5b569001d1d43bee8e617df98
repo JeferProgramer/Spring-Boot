@@ -1,5 +1,0 @@
-package com.bolsadeideas.springboot.error.app.erros;
-
-public class UsuarioNoEncontrado {
-
-}
