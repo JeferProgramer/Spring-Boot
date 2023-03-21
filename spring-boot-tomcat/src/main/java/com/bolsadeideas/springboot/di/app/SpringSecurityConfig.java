@@ -1,0 +1,63 @@
+package com.bolsadeideas.springboot.di.app;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.web.SecurityFilterChain;
+
+import com.bolsadeideas.springboot.di.app.auth.handler.LoginSuccessHandler;
+import com.bolsadeideas.springboot.di.app.models.service.JpaUserDetailsService;
+
+@EnableGlobalMethodSecurity(securedEnabled = true, prePostEnabled = true)
+@Configuration
+public class SpringSecurityConfig {
+
+	@Autowired
+	private LoginSuccessHandler succesHandler;
+
+	@Autowired
+	private BCryptPasswordEncoder passwordEncoder;
+
+	@Autowired
+	private JpaUserDetailsService userDetailsService;
+
+	@Bean
+	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
+		http.authorizeRequests()
+				.antMatchers("/", "/css/**", "/js/**", "/listar**", "/images/**", "/locale", "/api/clientes/**")
+				.permitAll().anyRequest().authenticated().and().formLogin().successHandler(succesHandler)
+				.loginPage("/login").permitAll().and().logout().permitAll().and().exceptionHandling()
+				.accessDeniedPage("/error_403");
+
+		return http.build();
+	}
+
+	@Autowired
+	public void configurerGlobal(AuthenticationManagerBuilder build) throws Exception {
+		build.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
+	}
+
+//	@Bean
+//	public UserDetailsService userDetailsService() throws Exception {
+//
+//		InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
+//		manager.createUser(
+//				User.withUsername("admin").password(passwordEncoder.encode("admin")).roles("SUPER_ADMIN").build());
+//		manager.createUser(
+//				User.withUsername("andres").password(passwordEncoder.encode("andres")).roles("ADMIN").build());
+//		manager.createUser(
+//				User.withUsername("yo").password(passwordEncoder.encode("yo")).roles("SUPER_ADMIN").build());
+//		manager.createUser(
+//				User.withUsername("maria").password(passwordEncoder.encode("maria")).roles("PROFESOR").build());
+//		manager.createUser(
+//				User.withUsername("fabi").password(passwordEncoder.encode("fabi")).roles("RECTOR").build());
+//
+//		return manager;
+//	}
+
+}
