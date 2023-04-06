@@ -1,6 +1,6 @@
 ﻿# Spring-Boot
 
-Desarrollo y aprendizaje de spring boot, jpa, microservicos 
+Desarrollo y aprendizaje de spring boot, jpa, microservicos .
 
 # Aprendizaje
 
