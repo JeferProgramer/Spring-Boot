@@ -41,7 +41,26 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Spring-Angular\Java-SpringBoot\workspace_api_rest\spring-boot-backend-apirest"/>
+			<item value="C:\Users\usuario\Downloads\springboot-servicio-usuarios-commons"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-productos"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-oauth2"/>
+			<item value="C:\Users\usuario\Downloads\1_springboot-servicio[spring_cloud_gateway_security_jwt] (1)\springboot-servicio-oauth"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-zuul-server"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-usuarios-commons"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-usuarios"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-oauth"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-item"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-eureka-server"/>
+			<item value="C:\Spring-Angular\Java-SpringBoot\workspace-micro-servicios\springboot-servicio-config-server"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-usuarios-commons"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-usuarios"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-eureka-server"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-config-server"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-zuul-server2"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicio-[oauth2_3intentos]\springboot-servicio-oauth2"/>
+			<item value="C:\Users\usuario\Downloads\springboot-servicios[eureka-zuul-config]\springboot-servicio-item2"/>
+			<item value="C:\Users\usuario\Downloads\5_springboot-servicios[eureka-zuul]\springboot-servicio-zuul-server"/>
+			<item value="C:\Users\usuario\Downloads\2_springboot-servicio[base_sin_eureka]\springboot-servicio-item2"/>
 		</list>
 	</section>
 </section>
